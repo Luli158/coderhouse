@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Ayudantecno</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navegador">
+            <div class="container-fluid">
+              <img src="../multimedia/logo.png" alt="Logo tecno" class="img-logo">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./videos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Videos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./videos.html">Computadora</a></li>
+                      <li><a class="dropdown-item" href="./videos.html">Celular</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./videos.html">Todos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                </ul>
+                <ul class="registro">
+                    <li>
+                        <a href="./ingresar.html">Ingresar</a>
+                    </li>
+                    <li>
+                        <a href="./registrate.html">Registrarte</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main class="principal-cursos">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-container">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel-video">
+              <div class="carousel-item active">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+              </div>
+              <div class="carousel-item">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+              </div>
+              <div class="carousel-item">
+                <video controls>
+                    <source src="video3.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <div class="container"></div>
+    <section>
+        <article>
+            <h2>TITULO</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ipsa voluptatibus rem officiis tempore rerum repellendus similique, tempora eveniet quia cupiditate ipsum. 
+            Tempore ipsum harum consectetur magni quaerat veritatis culpa eveniet vero veniam, sunt, corporis saepe fugit molestiae 
+            dolore iusto aut quidem animi perferendis fuga. Eos labore cumque.</p>
+        </article>
+    </section>
+    <div>
+        <form action="#" method="post" class="formulario-cursos">
+            <select name="categoria">
+                <option>
+                    Categoria 1
+                </option>
+                <option>
+                    Categoria 2
+                </option>
+                <option>
+                    Categoria 3
+                </option>
+                <option>
+                    Categoria 4
+                </option>
+            </select>
+            <select name="area">
+                <option>
+                    area 1
+                </option>
+                <option>
+                    area 2
+                </option>
+                <option>
+                    area 3
+                </option>
+                <option>
+                    area 4
+                </option>
+            </select>
+            <select name="ordenar">
+                <option>
+                    menor a mayor
+                </option>
+                <option>
+                    mas actual
+                </option>
+                <option>
+                    mayor a menor
+                </option>
+            </select>
+            <input type="submit" value="Lupa">
+        </form>
+    </div>
+
+    <div class="cursos-inicio">
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+        <div class="curso">
+            <video controls class="video-curso">
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video><br>
+            <a>TITULO</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+            <p>$ 5.000 </p>
+            <button>Comprar</button>
+            <img class="icono-carrito" src="./multimedia/carrito.png">
+        </div>
+    </div>
+</div>
+<footer>
+    <img src="../multimedia/logo.png" alt="Logo tecno" class="img-logo">
+    <p>Todos los derechos reservados Lorem ipsum, dolor sit amet 
+        consectetur adipisicing elit. Alias aperiam libero ea. Sunt non explicabo veniam.
+        Ipsum minus distinctio maiores sunt voluptate unde sequi non.</p>
+    <div class="redes">
+        <a href="#"><img src="../multimedia/face.png" alt="facebook" class="img-logo"></a>
+        <a href="#"><img src="../multimedia/insta.png" alt="instagram" class="img-logo"></a>
+        <a href="#"><img src="../multimedia/youtube.png" alt="youtube" class="img-logo"></a>
+        <a href="#"><img src="../multimedia/wsp.png" alt="whatsapp" class="img-logo"></a>   
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

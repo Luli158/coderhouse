@@ -1,0 +1,276 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu Sans Mono";
+}
+
+
+.img-logo {
+  width: 60px;
+}
+
+header {
+  display: flex;
+}
+
+header nav {
+  display: flex; 
+  width: 100%;
+
+}
+
+header nav ul {
+  gap: 20px; 
+  width: -webkit-fill-available;
+  
+}
+
+header nav ul li {
+  align-self: center;
+  list-style: none;
+  padding: 5px 10px 0px 10px;
+}
+
+.registro {
+  display: flex;
+  justify-content: flex-end;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+.navegador a{
+  color: rgb(245, 111, 205);
+}
+  
+.principal {
+  display: flex;
+  background-color: rgb(248, 205, 235);
+}
+
+.principal-cursos {
+  background-color: rgb(248, 205, 235);
+  padding: 20px; 
+  margin-bottom: 15px;
+}
+
+.navegador ul li:hover{
+  background-color: rgb(248, 205, 235);
+}
+
+article{
+  margin-left: 20px;
+}
+  
+#video-principal {
+  width: 55%;
+  align-self: center;
+}
+
+.foto-principal {
+  width: 43%;
+  text-align: center;
+  padding-bottom: 25px;
+
+}
+
+.foto-principal img {
+   max-width: 100%;
+}
+
+.formulario-cursos{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.formulario-cursos select{
+  width: 100%;
+  padding: 10px;
+  margin: 15px 20px;
+} 
+
+.formulario-cursos input {
+  padding: 10px;
+  margin: 15px 20px;
+}
+
+.section-index {
+  margin-top: 30px;
+  width: 94%;
+}
+ 
+.carousel-video video{
+  width: 100%;
+}
+
+.carousel-container {
+  max-width: 100%;
+}
+
+.cursos-inicio {
+  display: flex;  
+  flex-wrap: wrap;
+  margin-top:30px;
+}
+
+.curso {
+  flex: auto;
+  margin: 20px;
+  width: 20%;
+}
+
+.imagen-curso {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+.video-curso {
+  width: 100%;
+}
+
+.icono-carrito {
+  width: 20px;
+  height: 20px;
+
+}
+
+.cursos-inicio p {
+  display: inline-flex;
+  text-align: justify;
+}
+
+.encabezado-videos {
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+.encabezado-videos img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.encabezado-videos h1 {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  font-size: 100px;
+  margin-left: 20px; /*no me salio poner el titulo abajo a la izquierda*/
+}
+
+.titulo2-videos {
+  text-align: center;
+  padding: 40px;
+}
+
+.titulo2-videos p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contenedor-videos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-videos {
+  width: 15%;
+  margin-left: 60px;
+}
+
+.menu-videos ul li {
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: rgb(180, 180, 180);
+  border-color: rgb(255, 255, 255);
+  border-style: double;
+  text-align: center;
+} 
+
+.videos-videos {
+  width: 60%;
+  display: inline-block;
+  margin-right: 100px;
+} 
+
+.contenedor-nosotros {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px 100px 200px;
+}
+
+.imagen-nosotros img {
+  width: 80%;
+}
+
+.imagen-nosotros {
+  text-align: center;
+}
+
+.contenedor-registro {
+  padding: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+.formulario-registro {
+  display: block;
+  justify-content: center; 
+  width: 100%;
+}
+
+.formulario-registro label {
+  align-items: center;
+}
+
+.formulario-registro input {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px; 
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 5px; 
+}
+
+.formulario-registro input[type="submit"] {
+  margin-top: 15px;
+}
+ 
+.iniciar-registro {
+  text-align: center;  
+}
+
+footer {
+  display: flex;
+  background-color: rgb(151, 151, 150);
+  justify-content: space-evenly;
+  padding: 20px 0px 20px 0px; 
+  margin-top: 20px;
+}
+   
+.redes {
+  display: flex;
+}
+
+footer p {
+  max-width: 50%;
+}
+  
