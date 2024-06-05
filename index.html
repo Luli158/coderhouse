@@ -7,61 +7,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Ayudantecno</title>
 </head>
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary navegador">
-                <div class="container-fluid">
-                  <img src="./multimedia/logo.png" alt="Logo tecno" class="img-logo">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="./multimedia/logo.png" alt="Logo tecno" class="img-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navegador" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
                         <a class="nav-link" href="./pages/cursos.html">Cursos</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./pages/videos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Videos
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="./pages/videos.html">Computadora</a></li>
-                          <li><a class="dropdown-item" href="./pages/videos.html">Celular</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="./pages/videos.html">Todos</a></li>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Videos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/videos.html">Celulares</a></li>
+                                <li><a class="dropdown-item" href="./pages/videos.html">Computadoras</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./pages/videos.html">Todos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Ingresar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Registrarte</a>
+                            </li>
                         </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                      </li>
-                    </ul>
-                    <ul class="registro">
-                        <li>
-                            <a href="./pages/ingresar.html">Ingresar</a>
-                        </li>
-                        <li>
-                            <a href="./pages/registrate.html">Registrarte</a>
-                        </li>
-                    </ul>
-                  </div>
+                    </div>
                 </div>
-              </nav>
-        </header>
-
-        <main class="principal">
-            <div class="foto-principal">
-                <img src="./multimedia/fondo-titulo.png" alt="mujer-celular"> <!--me falta alinear imagen-->
-                <h1>Te ayudo con la tecnologia</h1>
             </div>
-            <video controls autoplay loop muted id="video-principal">
-                <source src="./multimedia/celular.mp4" type="video/mp4" />
-            </video>    
-            </div>
-        </main>
+        </nav>
+    </header>
+    <main class="principal">
+        <div class="foto-principal">
+            <img src="./multimedia/fondo-titulo.png" alt="mujer-celular"> <!--me falta alinear imagen-->
+            <h1>Te ayudo con la tecnologia</h1>
+        </div>
+        <video controls autoplay loop muted id="video-principal">
+            <source src="./multimedia/celular.mp4" type="video/mp4" />
+        </video>    
+        </div>
+    </main>
     <div class="container">
         <section class="section-index">
             <article>
@@ -131,18 +134,18 @@
             </div>
         </div>
     </div>
-        <footer>
-            <img src="./multimedia/logo.png" alt="Logo tecno" class="img-logo">
-            <p>Todos los derechos reservados Lorem ipsum, dolor sit amet 
-                consectetur adipisicing elit. Alias aperiam libero ea. Sunt non explicabo veniam.
-                Ipsum minus distinctio maiores sunt voluptate unde sequi non.</p>
-            <div class="redes">
-                <a href="#"><img src="./multimedia/face.png" alt="facebook" class="img-logo"></a>
-                <a href="#"><img src="./multimedia/insta.png" alt="instagram" class="img-logo"></a>
-                <a href="#"><img src="./multimedia/youtube.png" alt="youtube" class="img-logo"></a>
-                <a href="#"><img src="./multimedia/wsp.png" alt="whatsapp" class="img-logo"></a>   
-            </div>
-        </footer>
+    <footer>
+        <img src="./multimedia/logo.png" alt="Logo tecno" class="img-logo">
+        <p>Todos los derechos reservados Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. Alias aperiam libero ea. Sunt non explicabo veniam.
+            Ipsum minus distinctio maiores sunt voluptate unde sequi non.</p>
+        <div class="redes">
+            <a href="#"><img src="./multimedia/face.png" alt="facebook" class="img-logo"></a>
+            <a href="#"><img src="./multimedia/insta.png" alt="instagram" class="img-logo"></a>
+            <a href="#"><img src="./multimedia/youtube.png" alt="youtube" class="img-logo"></a>
+            <a href="#"><img src="./multimedia/wsp.png" alt="whatsapp" class="img-logo"></a>   
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>
