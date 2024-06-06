@@ -3,9 +3,18 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 420px) {
-  .formulario-registro {
+@media only screen and (max-width:420px) {
+  p {
+    text-align: justify;
+  }
   
+  .cursos-inicio {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .imagen-curso {
+    margin: 5px 0px 5px 0px;
   }
 }
 
@@ -16,7 +25,6 @@ body {
 .img-logo {
   width: 60px;
 }
-
 
 header nav {
   
@@ -62,10 +70,6 @@ a {
 
 .navegador ul li:hover{
   background-color: rgb(248, 205, 235);
-}
-
-article{
-  margin-left: 20px;
 }
   
 .video-principal {
@@ -117,7 +121,8 @@ article{
 }
 
 .cursos-inicio {
-  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .curso {
@@ -146,6 +151,7 @@ article{
   display: inline-flex;
   text-align: justify;
 }
+
 
 .encabezado-videos {
   height: 500px;
