@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 420px) {
+  .formulario-registro {
+    width: 100%; !important
+  }
+}
+
 body {
   font-family: "Ubuntu Sans Mono";
 }
@@ -224,17 +230,8 @@ article{
 }
 
 .formulario-registro {
-  display: block;
   justify-content: center; 
-  width: 100%;
-}
-
-.formulario-registro label {
-  align-items: center;
-}
-
-.formulario-registro input {
-  margin-bottom: 10px;
+  width: 50%;
 }
 
 .checkbox {
@@ -246,10 +243,6 @@ article{
 
 .checkbox input[type="checkbox"] {
   margin-right: 5px; 
-}
-
-.formulario-registro input[type="submit"] {
-  margin-top: 15px;
 }
  
 .iniciar-registro {
