@@ -5,7 +5,7 @@
 
 @media only screen and (max-width: 420px) {
   .formulario-registro {
-    width: 100%; !important
+  
   }
 }
 
@@ -117,9 +117,7 @@ article{
 }
 
 .cursos-inicio {
-  display: flex;  
-  flex-wrap: wrap;
-  margin-top:30px;
+  margin-bottom: 15px;
 }
 
 .curso {
@@ -220,18 +218,9 @@ article{
   text-align: center;
 }
 
-.contenedor-registro {
-  padding: 100px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  margin: auto;
-}
-
 .formulario-registro {
-  justify-content: center; 
-  width: 50%;
+  background-color: rgb(248, 205, 235);
+  padding: 10px;
 }
 
 .checkbox {
@@ -257,8 +246,6 @@ footer {
   display: flex;
   background-color: rgb(151, 151, 150);
   justify-content: space-evenly;
-  padding: 20px 0px 20px 0px; 
-  margin-top: 20px;
 }
    
 .redes {
