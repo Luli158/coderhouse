@@ -1,0 +1,110 @@
+@import "_maps.scss";
+@import "_variables.scss";
+@import "_extend.scss";
+@import "_mixins.scss";
+@import "_reset.scss";
+@import "_header.scss";
+@import "_footer.scss";
+
+@media only screen and (max-width:420px) {
+  p {
+    text-align: justify;
+  }
+
+  .cursos-inicio {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .col-cursos-inicio{
+    margin-bottom: 10px;
+    button {
+      margin-left: 10px;
+    }
+
+  .section-cursos {
+    margin: 0px;
+  }
+
+}
+
+  .imagen-curso {
+    margin: 5px 0px 5px 0px;
+  }
+}
+
+.foto-principal {
+    max-width: 90%;
+    img {
+        max-width: 100%;
+    }
+}
+
+.video-principal {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-principal {
+    margin: 10px;
+}
+
+.cursos-inicio {
+  p {
+    display: inline-flex;
+    text-align: justify;
+  }
+}
+
+.col-cursos-inicio {
+  margin-bottom: 10px;
+  button {
+    margin-left: 10px;
+  }
+}
+
+.imagen-curso {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+.icono-carrito {
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-container{
+  max-width: 100%;
+  height: 500px;
+}
+
+.carousel-video {
+  max-width: 100%;
+  max-height: 100%;
+  video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.section-cursos {
+  margin: 10px 0px 10px 0px;
+}
+
+.cursos-cursos{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.col-cursos-cursos {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+
+.video-cursos{
+    max-width: 100%;
+    max-height: 100%;
+}

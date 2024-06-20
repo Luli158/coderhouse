@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Ayudantecno</title>
 </head>
@@ -66,20 +65,20 @@
             </div>
             <div class="carousel-inner carousel-video">
               <div class="carousel-item active">
-                <video controls>
-                    <source src="video1.mp4" type="video/mp4">
+                <video controls autoplay loop muted>
+                    <source src="../multimedia/3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
               </div>
               <div class="carousel-item">
-                <video controls>
-                    <source src="video2.mp4" type="video/mp4">
+                <video controls autoplay loop muted>
+                    <source src="../multimedia/4115283-uhd_2160_4096_25fps.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
               </div>
               <div class="carousel-item">
-                <video controls>
-                    <source src="video3.mp4" type="video/mp4">
+                <video controls autoplay loop muted>
+                    <source src="../multimedia/4199353-uhd_3840_2160_25fps.mp4" type="video/mp4">
                     Tu navegador no soporta el elemento de video.
                 </video>
               </div>
@@ -94,152 +93,138 @@
             </button>
           </div>
     </main>
-    <div class="container"></div>
-    <section>
-        <article>
-            <h2>TITULO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ipsa voluptatibus rem officiis tempore rerum repellendus similique, tempora eveniet quia cupiditate ipsum. 
-            Tempore ipsum harum consectetur magni quaerat veritatis culpa eveniet vero veniam, sunt, corporis saepe fugit molestiae 
-            dolore iusto aut quidem animi perferendis fuga. Eos labore cumque.</p>
-        </article>
-    </section>
-    <div>
-        <form action="#" method="post" class="formulario-cursos">
-            <select name="categoria">
-                <option>
-                    Categoria 1
-                </option>
-                <option>
-                    Categoria 2
-                </option>
-                <option>
-                    Categoria 3
-                </option>
-                <option>
-                    Categoria 4
-                </option>
-            </select>
-            <select name="area">
-                <option>
-                    area 1
-                </option>
-                <option>
-                    area 2
-                </option>
-                <option>
-                    area 3
-                </option>
-                <option>
-                    area 4
-                </option>
-            </select>
-            <select name="ordenar">
-                <option>
-                    menor a mayor
-                </option>
-                <option>
-                    mas actual
-                </option>
-                <option>
-                    mayor a menor
-                </option>
-            </select>
-            <input type="submit" value="Lupa">
-        </form>
-    </div>
+    <div class="container">
+        <section class="section-cursos">
+            <article>
+                <h2>Explora Nuestros Cursos de Tecnología</h2>
+                <p>Sumérgete en una variedad de cursos diseñados para potenciar tus habilidades tecnológicas. Ya seas un principiante o un profesional experimentado, encontrarás recursos educativos gratuitos y pagos que te ayudarán a dominar las competencias más demandadas del mercado. Aprende a tu propio ritmo con nuestros materiales de alta calidad, creados por expertos en la industria.</p>
+            </article>
+        </section>
+        <div>
+            <form action="#" method="post" class="row justify-content-around m-3">
+                <select class="col-md-3" name="categoria">
+                    <option>Redes sociales</option>
+                    <option>Primeros pasos</option>
+                    <option>Fotos</option>
+                    <option>Todas</option>
+                </select>
+                <select class="col-md-3" name="area">
+                    <option>Celular</option>
+                    <option>Computadoras</option>
+                    <option>Televisores</option>
+                    <option>Otros dispositivos</option>
+                </select>
+                <select class="col-md-3" name="ordenar">
+                    <option>menor a mayor</option>
+                    <option>mas actual</option>
+                    <option>mayor a menor</option>
+                </select>
+                <input class="col-md-1" type="submit" value="Lupa">
+            </form>
+        </div>
+        <div class="row justify-content-center cursos-cursos">
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/4828605-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/4962799-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/5082599-uhd_2160_4096_25fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/5083548-uhd_2160_4096_25fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/5516345-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/5524261-uhd_2160_3840_24fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/5725960-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/6003991-uhd_2160_3840_30fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
+            <div class="col-md-4 col-cursos-cursos">
+                <video controls class="video-cursos">
+                    <source src="../multimedia/6282371-hd_1080_1920_30fps.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video><br>
+                <a>TITULO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
+                <p>$ 5.000 </p>
+                <button>Comprar</button>
+                <img class="icono-carrito" src="../multimedia/carrito.png">
+            </div>
 
-    <div class="cursos-inicio">
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="./multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
-        </div>
-        <div class="curso">
-            <video controls class="video-curso">
-                <source src="video1.mp4" type="video/mp4">
-                Tu navegador no soporta el elemento de video.
-            </video><br>
-            <a>TITULO</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ut atque facilis! Tenetur inventore facere ducimus beatae magni numquam, temporibus similique deserunt doloremque!</p>
-            <p>$ 5.000 </p>
-            <button>Comprar</button>
-            <img class="icono-carrito" src="../multimedia/carrito.png">
         </div>
     </div>
-</div>
     <footer class="text-light py-4">
         <div class="container">
             <div class="row">

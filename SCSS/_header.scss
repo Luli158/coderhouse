@@ -1,0 +1,27 @@
+header {
+    nav {
+        width: 100%;
+        ul{
+            gap: 20px;
+            width: -webkit-fill-available;
+            li{
+                align-self: center;
+                list-style: none;
+                padding: 5px 10px 0px 10px;
+                &:hover{
+                    background-color:$rosa-medio;
+                }
+                a {
+                    color: $rosa-medio !important; //nose porque no me cambiaba el color sin el important
+                    text-decoration: none;
+                    &:hover {
+                        color: $rosa-claro !important; 
+                    }
+                }
+            }
+        }
+    }
+}
+.img-logo {
+    width: 60px;
+}

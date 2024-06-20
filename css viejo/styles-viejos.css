@@ -1,0 +1,277 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width:420px) {
+  p {
+    text-align: justify;
+  }
+
+  /* si */
+  .cursos-inicio {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  /* si */
+  .col-cursos-inicio{
+    margin-bottom: 10px;
+  }
+/* si */
+  .col-cursos-inicio button {
+    margin-left: 10px;
+  }
+
+  .imagen-curso {
+    margin: 5px 0px 5px 0px;
+  }
+}
+
+/* body {
+  font-family: "Ubuntu Sans Mono"; 
+/* LO PUSE EN RESET */
+
+
+/* SI */
+/* .img-logo {
+  width: 60px;
+} */
+
+/* header nav {
+
+  width: 100%;
+
+}
+
+header nav ul {
+  gap: 20px;
+  width: -webkit-fill-available;
+
+}
+
+header nav ul li {
+  align-self: center;
+  list-style: none;
+  padding: 5px 10px 0px 10px;
+} */
+
+.registro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navegador a{
+  color: rgb(245, 111, 205);
+}
+
+.principal {
+  background-color: rgb(247, 166, 222);
+  width: 100%;
+}
+
+.principal-cursos {
+  background-color: rgb(248, 205, 235);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+/* .navegador ul li:hover{
+  background-color: rgb(248, 205, 235);
+} */
+
+/* si */
+/* .video-principal {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+} */
+
+/* SI */
+/* .foto-principal {
+ max-width: 90%;
+}
+
+/* si */
+/* .foto-principal img {
+   max-width: 100%;
+} */ */
+
+/* .formulario-cursos{
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* si */
+/* .titulo-principal {
+  margin: 10px;
+} */
+
+/* si */
+/* .formulario-cursos select{
+  width: 100%;
+  padding: 10px;
+  margin: 15px 20px;
+}
+/* si */
+.formulario-cursos input {
+  padding: 10px;
+  margin: 15px 20px;
+} */
+
+/* si */
+.carousel-video video{
+  width: 100%;
+}
+/* si */
+.carousel-container {
+  max-width: 100%;
+}
+
+/* .cursos-inicio {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* si */
+/* .curso {
+  flex: auto;
+  margin: 20px;
+  width: 20%;
+} */
+
+/* .imagen-curso {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+} */
+
+/* si */
+.video-curso {
+  width: 100%;
+}
+
+/* si */
+/* .icono-carrito {
+  width: 20px;
+  height: 20px;
+
+} */
+/* si */
+/* .cursos-inicio p {
+  display: inline-flex;
+  text-align: justify;
+} */
+
+/* si */
+.encabezado-videos {
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+/* si */
+.encabezado-videos img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+/* si */
+.encabezado-videos h1 {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  font-size: 100px;
+  margin-left: 20px; /*no me salio poner el titulo abajo a la izquierda*/
+}
+/* si */
+.titulo2-videos {
+  text-align: center;
+  padding: 40px;
+}
+
+.titulo2-videos p {
+  font-size: 20px;
+  text-align: justify;
+}
+/* si */
+.contenedor-videos{
+  display: flex;
+  justify-content: space-between;
+}
+/* si */
+.menu-videos {
+  width: 15%;
+  margin-left: 60px;
+}
+
+.menu-videos ul li {
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: rgb(180, 180, 180);
+  border-color: rgb(255, 255, 255);
+  border-style: double;
+  text-align: center;
+}
+/* si */
+.videos-videos {
+  width: 60%;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.contenedor-nosotros {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px 100px 200px;
+}
+
+/* si */
+.imagen-nosotros img {
+  width: 80%;
+}
+
+/* si */
+.imagen-nosotros {
+  text-align: center;
+}
+
+.formulario-registro {
+  background-color: rgb(248, 205, 235);
+  padding: 10px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.iniciar-registro {
+  text-align: center;
+}
+
+/* .img-footer{
+ max-width: 60%;
+} */
+
+/* footer {
+  display: flex;
+  background-color: rgb(151, 151, 150);
+  justify-content: space-evenly;
+} */
+
+/* si */
+/* .redes {
+  display: flex;
+} */
