@@ -168,11 +168,11 @@ a {
 } */
 
 /* si */
-/* .encabezado-videos {
+.encabezado-videos {
   height: 500px;
   position: relative;
   display: flex;
-} */
+}
 /* si */
 .encabezado-videos img {
   height: 100%;

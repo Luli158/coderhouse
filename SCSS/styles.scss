@@ -52,13 +52,14 @@
 }
 
 .video-principal {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    max-width: 95%;
+    height: 100%;
+    padding: 0;
 }
 
-.titulo-principal {
-    margin: 10px;
+.encabezado-inicio{
+  margin: 0;
+  background-color: $rosa-claro;
 }
 
 .cursos-inicio {
@@ -71,11 +72,11 @@
   margin-bottom: 10px;
 }
 
-.img-inicio{
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    margin-bottom: 10px;
+.img-inicio {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .icono-carrito {
@@ -106,10 +107,7 @@
 }
 
 .video-cursos{
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  margin-bottom: 10px;
+ @extend box-video;
 }
 
 .encabezado-videos {
@@ -136,10 +134,7 @@
 }
 
 .video-videos{
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  margin-bottom: 10px;
+  @extend box-video;
 }
 
 .menu-videos{

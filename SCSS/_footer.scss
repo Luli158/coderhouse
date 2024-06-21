@@ -10,4 +10,7 @@ footer {
 
 .redes {
     display: flex;
+    :hover {
+        transform: scale(1.2);
+    }
 }
