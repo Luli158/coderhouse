@@ -1,10 +1,12 @@
+@import "_maps.scss";
+
 .img-footer{
     max-width: 60%;
 }
 
 footer {
     display: flex;
-    background-color: $color-secundario;
+    background-color: map-get($estilo-footer, color-fondo);
     justify-content: space-evenly;
 }
 
