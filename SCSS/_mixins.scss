@@ -1,0 +1,10 @@
+@mixin boton($background-color, $text-color) {
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: $background-color;
+    color: $text-color;
+  }
+  

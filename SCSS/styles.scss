@@ -6,6 +6,14 @@
 @import "_header.scss";
 @import "_footer.scss";
 
+.boton-primario {
+  @include boton($rosa-oscuro, $rosa-claro);
+}
+
+.boton-secundario {
+  @include boton($rosa-claro, $rosa-oscuro );
+}
+
 @media only screen and (max-width:420px) {
   p {
     text-align: justify;
@@ -18,9 +26,6 @@
 
   .col-cursos-inicio{
     margin-bottom: 10px;
-    button {
-      margin-left: 10px;
-    }
   }
   .section-cursos {
     margin: 0px;
@@ -30,6 +35,12 @@
   }
   .menu-videos{
     text-align: center;
+  }
+  .encabezado-videos {
+    margin-bottom: 10px;
+  }
+  .img-inicio {
+    height: 90vh !important;
   }
 }
 
@@ -52,22 +63,19 @@
 
 .cursos-inicio {
   p {
-    display: inline-flex;
     text-align: justify;
   }
 }
 
 .col-cursos-inicio {
   margin-bottom: 10px;
-  button {
-    margin-left: 10px;
-  }
 }
 
-.imagen-curso {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 10px;
+.img-inicio{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .icono-carrito {
@@ -93,20 +101,15 @@
   margin: 10px 0px 10px 0px;
 }
 
-.cursos-cursos{
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .col-cursos-cursos {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .video-cursos{
-    max-width: 100%;
-    max-height: 100%;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .encabezado-videos {
@@ -133,7 +136,42 @@
 }
 
 .video-videos{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.menu-videos{
+  background-color: $rosa-claro;
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    :hover{
+      background-color: $rosa-medio;
+    }
+    li {
+      border: solid 1px $rosa-oscuro;
+      padding: 5px;
+      background-color: $rosa-claro;
+      a{
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+
+.imagen-nosotros{
   max-width: 100%;
   max-height: 100%;
-  margin-bottom: 5px;
 }
+
+.formulario-registro {
+  background-color: $rosa-medio;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+
